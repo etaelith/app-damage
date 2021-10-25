@@ -94,13 +94,13 @@ function insertAxie(dataObj) {
 
     newCell.textContent = dataObj["axieName"]
     newCell = newRow.insertCell(1);
-    newCell.setAttribute("class", "bg-success opacity-75")
+    newCell.setAttribute("class", "bg-success opacity-75 text-center")
     newCell.textContent = Math.round(hola1)
     newCell = newRow.insertCell(2);
-    newCell.setAttribute("class", "bg-info opacity-75")
+    newCell.setAttribute("class", "bg-info opacity-75 text-center")
     newCell.textContent = Math.round(hola2)
     newCell = newRow.insertCell(3);
-    newCell.setAttribute("class", "bg-danger opacity-75")
+    newCell.setAttribute("class", "bg-danger opacity-75 text-center")
     newCell.textContent = Math.round(hola3)
     newDeleteCell = newRow.insertCell(4);
     newDeleteCell.appendChild(deleteButton)
@@ -115,39 +115,39 @@ function insertAxie(dataObj) {
     newCell = newRow.insertCell(0);
     newCell.textContent = "Back"
     newCell = newRow.insertCell(1);
-    newCell.setAttribute("class", "bg-success opacity-75")
+    newCell.setAttribute("class", "bg-success opacity-75 text-center")
     newCell.textContent = Math.round(hola4)
     newCell = newRow.insertCell(2);
-    newCell.setAttribute("class", "bg-info opacity-75")
+    newCell.setAttribute("class", "bg-info opacity-75 text-center")
     newCell.textContent = Math.round(hola5)
     newCell = newRow.insertCell(3);
-    newCell.setAttribute("class", "bg-danger opacity-75")
+    newCell.setAttribute("class", "bg-danger opacity-75 text-center")
     newCell.textContent = Math.round(hola6)
     newRow = tableDamage.insertRow(-1)
     newRow.setAttribute("class", dataObj["axieName"])
     newCell = newRow.insertCell(0);
     newCell.textContent = "Horn"
     newCell = newRow.insertCell(1);
-    newCell.setAttribute("class", "bg-success opacity-75")
+    newCell.setAttribute("class", "bg-success opacity-75 text-center")
     newCell.textContent = Math.round(hola7)
     newCell = newRow.insertCell(2);
-    newCell.setAttribute("class", "bg-info opacity-75")
+    newCell.setAttribute("class", "bg-info opacity-75 text-center")
     newCell.textContent = Math.round(hola8)
     newCell = newRow.insertCell(3);
-    newCell.setAttribute("class", "bg-danger opacity-75")
+    newCell.setAttribute("class", "bg-danger opacity-75 text-center")
     newCell.textContent = Math.round(hola9)
     newRow = tableDamage.insertRow(-1)
     newRow.setAttribute("class", dataObj["axieName"])
     newCell = newRow.insertCell(0);
     newCell.textContent = "Tail"
     newCell = newRow.insertCell(1);
-    newCell.setAttribute("class", "bg-success opacity-75")
+    newCell.setAttribute("class", "bg-success opacity-75 text-center")
     newCell.textContent = Math.round(hola10)
     newCell = newRow.insertCell(2);
-    newCell.setAttribute("class", "bg-info opacity-75")
+    newCell.setAttribute("class", "bg-info opacity-75 text-center")
     newCell.textContent = Math.round(hola11)
     newCell = newRow.insertCell(3);
-    newCell.setAttribute("class", "bg-danger opacity-75")
+    newCell.setAttribute("class", "bg-danger opacity-75 text-center")
     newCell.textContent = Math.round(hola12)
 }
 
