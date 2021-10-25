@@ -18,24 +18,23 @@
       <span class="badge bg-info">Welcome traveler from lunacia</span>
     </h1>
 
-    <div class="container">
-      <div class="row pt-5">
-        <form id="formAxie">
-          <div class="form-group d-md-flex justify-content-around gap-2 m-3">
+    <div class="container-fluid">
+      <form id="formAxie">
+        <div class="form-group d-md-flex gap-2 m-3">
+          <div class="form-floating">
             <input
-              class="
-                required
-                bg-transparent
-                border-top-0 border-end-0
-                input-focus-color-white
-              "
+              required
+              class="form-control bg-transparent border-top-0 border-end-0"
               id="axieName"
               type="string"
               name="axieName"
               placeholder="Axie Name"
             />
+            <label for="axieName">Axie Name</label>
+          </div>
+          <div class="form-floating">
             <input
-              class="bg-transparent"
+              class="form-control bg-transparent border-top-0 border-end-0"
               required
               type="form-control"
               list="datalistOptions"
@@ -43,6 +42,7 @@
               name="claseValue"
               placeholder="Body Class"
             />
+            <label for="claseValue">Body Class</label>
             <datalist id="datalistOptions">
               <option value="Plant"></option>
               <option value="Dusk"></option>
@@ -55,10 +55,12 @@
               <option value="Bug"></option>
             </datalist>
           </div>
-          <div class="form-group d-md-flex justify-content-around gap-2 m-3">
+        </div>
+        <div class="form-group d-md-flex gap-2 m-3">
+          <div class="form-floating">
             <input
               required
-              class="bg-transparent border-top-0 border-end-0"
+              class="bg-transparent border-top-0 border-end-0 form-control"
               min="0"
               max="200"
               type="number"
@@ -66,8 +68,11 @@
               name="damage1"
               placeholder="damage"
             />
+            <label for="damage1">Damage</label>
+          </div>
+          <div class="form-floating">
             <input
-              class="bg-transparent"
+              class="form-control bg-transparent border-top-0 border-end-0"
               required
               type="form-control"
               list="datalistOptionD1"
@@ -75,6 +80,7 @@
               name="claseValuD1"
               placeholder="Mouth Class"
             />
+            <label for="claseValuD1">Mouth Class</label>
             <datalist id="datalistOptionD1">
               <option value="Plant"></option>
               <option value="Reptile"></option>
@@ -84,9 +90,11 @@
               <option value="Bug"></option>
             </datalist>
           </div>
-          <div class="form-group d-md-flex justify-content-around gap-2 m-3">
+        </div>
+        <div class="form-group d-md-flex gap-2 m-3">
+          <div class="form-floating">
             <input
-              class="bg-transparent border-top-0 border-end-0"
+              class="form-control bg-transparent border-top-0 border-end-0"
               required
               min="0"
               max="200"
@@ -95,8 +103,11 @@
               name="damage2"
               placeholder="damage"
             />
+            <label for="damage2">Damage</label>
+          </div>
+          <div class="form-floating">
             <input
-              class="bg-transparent"
+              class="form-control bg-transparent border-top-0 border-end-0"
               required
               type="form-control"
               list="datalistOptionD2"
@@ -104,6 +115,7 @@
               name="claseValuD2"
               placeholder="Back Class"
             />
+            <label for="claseValuD2">Back Class</label>
             <datalist id="datalistOptionD2">
               <option value="Plant"></option>
               <option value="Reptile"></option>
@@ -113,9 +125,11 @@
               <option value="Bug"></option>
             </datalist>
           </div>
-          <div class="form-group d-md-flex justify-content-around gap-2 m-3">
+        </div>
+        <div class="form-group d-md-flex gap-2 m-3">
+          <div class="form-floating">
             <input
-              class="bg-transparent border-top-0 border-end-0"
+              class="form-control bg-transparent border-top-0 border-end-0"
               required
               min="0"
               max="200"
@@ -124,8 +138,11 @@
               name="damage3"
               placeholder="damage"
             />
+            <label for="damage3">Damage</label>
+          </div>
+          <div class="form-floating">
             <input
-              class="bg-transparent"
+              class="form-control bg-transparent border-top-0 border-end-0"
               required
               type="form-control"
               list="datalistOptionD3"
@@ -133,6 +150,7 @@
               name="claseValuD3"
               placeholder="Horn Class"
             />
+            <label for="claseValuD3">Horn Class</label>
             <datalist id="datalistOptionD3">
               <option value="Plant"></option>
               <option value="Reptile"></option>
@@ -142,10 +160,12 @@
               <option value="Bug"></option>
             </datalist>
           </div>
-          <div class="form-group d-md-flex justify-content-around gap-2 m-3">
+        </div>
+        <div class="form-group d-md-flex gap-2 m-3">
+          <div class="form-floating">
             <input
               required
-              class="bg-transparent border-top-0 border-end-0"
+              class="form-control bg-transparent border-top-0 border-end-0"
               min="0"
               max="200"
               type="number"
@@ -153,9 +173,12 @@
               name="damage4"
               placeholder="damage"
             />
+            <label for="damage4">Damage</label>
+          </div>
+          <div class="form-floating">
             <input
               required
-              class="bg-transparent"
+              class="form-control bg-transparent border-top-0 border-end-0"
               required
               type="form-control"
               list="datalistOptionD4"
@@ -163,6 +186,7 @@
               name="claseValuD4"
               placeholder="Tail Class"
             />
+            <label for="claseValuD4">Tail Class</label>
             <datalist id="datalistOptionD4">
               <option value="Plant"></option>
               <option value="Reptile"></option>
@@ -172,33 +196,35 @@
               <option value="Bug"></option>
             </datalist>
           </div>
-          <div class="d-flex justify-content-center m-3">
-            <button
-              type="submit"
-              class="bg-transparent rounded-pill"
-              name="submit"
-            >
-              Calculated and Save
-            </button>
-          </div>
-        </form>
-      </div>
-    </div>
-    <table id="datasos" class="table bg-white-opacity-25 text-dark fw-bold">
-      <thead>
-        <tr>
-          <th class="col">Part</th>
-          <th class="col">Reptil/Dusk/Plant(S/C combo)</th>
-          <th class="col">Aqua/Bird/Dawn(S/C combo)</th>
-          <th class="col">Beast/Mech/Bug(S/C combo)</th>
-          <th class="col">Delete</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr></tr>
-      </tbody>
-    </table>
+        </div>
 
+        <div class="d-flex justify-content-center m-3">
+          <button
+            type="submit"
+            class="bg-transparent rounded-pill"
+            name="submit"
+          >
+            Calculated and Save
+          </button>
+        </div>
+      </form>
+    </div>
+    <div class="container">
+      <table id="datasos" class="table bg-white-opacity-25 text-dark fw-bold">
+        <thead>
+          <tr>
+            <th class="col">Part</th>
+            <th class="col">Reptil/Dusk/Plant(S/C combo)</th>
+            <th class="col">Aqua/Bird/Dawn(S/C combo)</th>
+            <th class="col">Beast/Mech/Bug(S/C combo)</th>
+            <th class="col">Delete</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr></tr>
+        </tbody>
+      </table>
+    </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
