@@ -1,12 +1,11 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  list-style-type: none;
-}
 body {
   background: url(img/Banner1920x1080.png) no-repeat center center fixed;
 }
+form {
+  background: rgba(255, 255, 255, 0.351);
+  border-radius: 5%;
+}
+
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
   -webkit-appearance: none;
